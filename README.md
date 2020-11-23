@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to micronaut-grpc-kotlin 👋</h1>
+<h1 align="center">Welcome to micronaut-gRPC-kotlin 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000" />
 </p>
@@ -14,7 +14,7 @@
 ## Usage
 
 ```sh
-run docker-compose on dir &#34;docker&#34; in &#34;src/docker&#34; to up postgrees database
+run docker-compose in src/docker to up postgrees database
 ```
 
 ## Run tests
@@ -22,6 +22,12 @@ run docker-compose on dir &#34;docker&#34; in &#34;src/docker&#34; to up postgre
 ```sh
 ./gradlew test
 ```
+
+to test gRPC requests, I used BloomRPC (gRPC postman), which can be downloaded from [here](https://appimage.github.io/BloomRPC/)
+
+https://appimage.github.io/BloomRPC/
+
+open bloomRPC and import the file with extension ".proto" from the directory "src / proto"
 
 ## Author
 
@@ -33,6 +39,3 @@ run docker-compose on dir &#34;docker&#34; in &#34;src/docker&#34; to up postgre
 ## Show your support
 
 Give a ⭐️ if this project helped you!
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
