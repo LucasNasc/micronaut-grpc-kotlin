@@ -1,0 +1,69 @@
+syntax = "proto3";
+
+package br.com.nascimento.proto;
+
+option java_multiple_files = true;
+
+
+service MicronautGrpcService {
+
+  rpc HelloWorld (MicronautGrpcRequest) returns (MicronautGrpcReply) {}
+
+  rpc Update (UpdateRequest) returns (CustomerReply) {}
+
+  rpc FindById (FindByIdRequest) returns (CustomerReply) {}
+
+  rpc FindByName (FindByNameRequest) returns (CustomerReply) {}
+
+  rpc Create (CreateRequest) returns (Empty) {}
+
+  rpc ListAll (ListAllRequest) returns (ListAllResponse) {}
+
+  rpc ListAllStream (ListAllRequest) returns (stream CustomerReply) {}
+
+  rpc Delete (DeleteRequest) returns (Empty) {}
+
+}
+
+message MicronautGrpcRequest {
+  string name = 1;
+}
+
+message Empty {}
+
+message ListAllRequest {}
+
+message FindByIdRequest {
+  uint64 id = 1;
+}
+
+message DeleteRequest {
+  uint64 id = 1;
+}
+
+message FindByNameRequest {
+  string nome = 1;
+}
+
+message CreateRequest {
+  string nome = 1;
+  string sobrenome = 2;
+}
+
+message CustomerReply {
+  uint64 id = 1;
+  string nome = 2;
+  string sobrenome = 3;
+}
+
+message ListAllResponse {
+  repeated CustomerReply customers = 1;
+}
+
+message UpdateRequest {
+  CustomerReply customer = 1;
+}
+
+message MicronautGrpcReply {
+  string message = 1;
+}
