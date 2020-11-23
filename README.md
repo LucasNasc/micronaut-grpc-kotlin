@@ -16,6 +16,12 @@
 ```sh
 run docker-compose in src/docker to up postgrees database
 ```
+and 
+
+```sh
+./gradlew run
+```
+to up application!
 
 ## Run tests
 
