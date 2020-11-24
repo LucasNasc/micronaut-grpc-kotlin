@@ -25,10 +25,10 @@
  - Git
  - Postgres
  
-### Micronaut
+## Micronaut
 > É um framework com foco de criação de microserviços e aplicações serverless, que tem como foco velocidade e pouco consumo de memória utilizando 3 linguagens JVM-based ( Java, Kotlin e Groovy ).
 
-### gRPC
+## gRPC
 > framework de comunicaçãoque vem sendo bem repercutido  no mercado, pois utiliza como protocolo de comunicação o HTTP2 e tem por padrão, o <b> Protocol Buffer </b> como mecanismo de serialização de dados( porém é possível utilizar outros mecanismos de dados como JSON ), abaixo segue o trecho da representação de um "objeto" no arquivo de extensão ".proto" :
 
 ```
