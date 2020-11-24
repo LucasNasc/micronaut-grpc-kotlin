@@ -10,7 +10,7 @@
 
  > [English :us:](https://github.com/LucasNasc/micronaut-grpc-kotlin/blob/master/README.en.md)
  
-## Welcome
+## Bem-vindo
 
  > Uma aplicação utilizando um framework [micronaut](https://micronaut.io/), utilizando na comunicação o <b>[gRPC](https://grpc.io/)</b>, um framework RPC de comunicação entre serviços(back-end, front-end, mobile, microserviços... ). Utilizando postgres como banco de dados e kotlin como linguagem de programação.
   
