@@ -6,7 +6,13 @@
   <img alt="Version" src="https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000" />
 </p>
 
-  > Uma aplicação utilizando um framework [micronaut](https://micronaut.io/), utilizando na comunicação o <b>[gRPC](https://grpc.io/)</b>, um framework RPC de comunicação entre serviços(back-end, front-end, mobile, microserviços... ). Utilizando postgres como banco de dados e kotlin como linguagem de programação.
+### Languages
+
+ > [English :us:](https://github.com/LucasNasc/micronaut-grpc-kotlin/blob/master/README.en.md)
+ 
+## Welcome
+
+ > Uma aplicação utilizando um framework [micronaut](https://micronaut.io/), utilizando na comunicação o <b>[gRPC](https://grpc.io/)</b>, um framework RPC de comunicação entre serviços(back-end, front-end, mobile, microserviços... ). Utilizando postgres como banco de dados e kotlin como linguagem de programação.
   
   
  ## Tecnologias
